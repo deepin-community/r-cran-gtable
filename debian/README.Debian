@@ -1,0 +1,7 @@
+r-cran-gtable for Debian
+------------------------
+
+This package can be tested by loading it into R with the command
+'library(gtable)' in order to confirm its integrity.
+
+ -- Ivo Maintz <ivo@maintz.de>  Mon, 10 Dec 2012 10:03:04 +0100

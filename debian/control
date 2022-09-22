@@ -1,0 +1,28 @@
+Source: r-cran-gtable
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Section: gnu-r
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               dh-r,
+               r-base-dev
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-gtable
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-gtable.git
+Homepage: https://cran.r-project.org/package=gtable
+Rules-Requires-Root: no
+
+Package: r-cran-gtable
+Architecture: all
+Depends: ${R:Depends},
+         ${misc:Depends}
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: Arrange grobs in tables
+ A grob table captures all the information needed to layout grobs in a
+ table structure. It supports row and  column spanning, offers some
+ tools to automatically figure out the correct dimensions, and makes it
+ easy to align and combine multiple tables.
+ Each grob is put in its own viewport - grobs in the same location are
+ not combined into one cell. Each grob takes up the entire cell viewport
+ so justification control is not available.
